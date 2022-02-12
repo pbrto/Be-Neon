@@ -1,0 +1,28 @@
+.lista-vagas{
+    display:flex;
+    flex-direction: row;
+}
+.lista-vagas .card{
+    margin: 5px 10px;    
+    
+}
+.btn{
+    margin-left: 5px;
+}
+.card{
+    border-radius: 10px;
+    padding: 3px;
+    height: 550px;
+}
+.imagem{
+    border-radius: 10px;
+    max-height: 200px;
+    min-height: 200px;
+}
+.container{
+    margin-bottom: 10%;
+}
+
+body{
+    background-color: #031321;
+}

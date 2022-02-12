@@ -1,0 +1,21 @@
+<main class="formulario">
+    <div class="container">
+        <h1><span class="titulo3">Excluir</span> vaga</h1>
+        <h2>Exclua vagas sem se preocupar em excluir nada do banco de dados</h2>
+        <h3>Digite o <span class="titulo3">ID</span> da vaga para exclusão</h3>
+        <div class="row">
+            <div class="conteudo">
+                <form >
+
+                    <p> <input type="text" name="id" [(ngModel)]="vaga.id"  placeholder="Id Vaga:" class="i"></p>
+                    <br>
+                   
+
+                    <button class="btn btn-outline-danger" (click)="excluir(vaga.id)">Excluir</button>
+                
+
+                </form>
+            </div>
+        </div>
+    </div>
+</main>

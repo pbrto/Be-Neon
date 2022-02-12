@@ -1,0 +1,46 @@
+{
+  "vagas": [
+    {
+      "id": 1,
+      "nome": "Desenvolvedor Frontend",
+      "foto": "foto8.jpg",
+      "descricao": "Conhecer javascript, css e html",
+      "salario": "5000"
+    },
+    {
+      "id": 2,
+      "nome": "Desenvolvedor BackEnd",
+      "foto": "foto2.jpg",
+      "descricao": "Trabalhar com Spring Boot",
+      "salario": "7000"
+    },
+    {
+      "id": 3,
+      "nome": "Desenvolvedor Full Stack Senior",
+      "foto": "foto3.jpg",
+      "descricao": "Trabalhar com Ruby,MYSql",
+      "salario": "10000"
+    },
+    {
+      "id": 4,
+      "nome": "Desenvolvedor Mobile - Android",
+      "foto": "foto4.jpg",
+      "descricao": "Trabalhar com AndroidStudio",
+      "salario": "15000"
+    },
+    {
+      "id": 5,
+      "nome": "Desenvolvedor Web e Tester - React e React Native",
+      "foto": "foto5.jpg",
+      "descricao": "Trabalhar com React, React Native, além do conhecimento de JS e TS",
+      "salario": "20000"
+    },
+    {
+      "id": 6,
+      "nome": "Desenvolvedor Swift",
+      "foto": "foto6.jpg",
+      "descricao": "Trabalhar com produtos do ecossistema apple, MacBook e Iphone",
+      "salario": "25000"
+    }
+  ]
+}

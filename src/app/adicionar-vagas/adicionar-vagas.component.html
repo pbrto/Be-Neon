@@ -1,0 +1,36 @@
+<main class="formulario">
+    <div class="container ">
+        <h1><span class="titulo1">Adicionar</span> vaga</h1>
+        <h2>Adicione vagas de forma simples e rápida</h2>
+        <div class="row">
+            <div class="conteudo">
+                <form >
+
+                    <p><strong>Identificador da Vaga:</strong></p>
+                    <p><input type="text" name="id" [(ngModel)]="vaga.id" class="i"></p>
+                    <br>
+
+                    <p><strong>Nome:</strong></p>
+                    <p><input type="text" name="nome" [(ngModel)]="vaga.nome"  placeholder="Ex: vaga de aux" class="i"></p>
+                    <br>
+
+                    <p><strong>Foto ( escolha entre foto1.jpg à foto9.jpg):</strong></p>
+                    <p><input type="text" name="foto" [(ngModel)]="vaga.foto" placeholder="Ex: foto1.jpg" class="i"></p>
+                    <br>
+
+                    <p><strong>Descricao da Vaga:</strong></p>
+                    <P><input type="text" name="descricao" [(ngModel)]="vaga.descricao" class="i" placeholder="Breve descricao"></P>
+                    <br>
+
+                    <p><strong>Salário:</strong></p>
+                    <p><input type="text" name="salario" class="i" [(ngModel)]="vaga.salario"></p>
+                    <br>
+
+                    <button class="btn" (click)="cadastar()">Adicionar</button>
+                
+
+                </form>
+            </div>
+        </div>
+    </div>
+</main>

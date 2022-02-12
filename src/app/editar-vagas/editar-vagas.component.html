@@ -1,0 +1,36 @@
+<main class="formulario">
+    <div class="container">
+        <h1><span class="titulo2">Editar</span> vaga</h1>
+        <h2>Edite vagas sem se preocupar em gerar conflitos entre vagas</h2>
+        <div class="row">
+            <div class="conteudo">
+                <form >
+
+                    <p><strong>Identificador da Vaga <span class="titulo2">Atualizada</span></strong></p>
+                    <p><input type="text" name="id" [(ngModel)]="vaga.id" class="i"></p>
+                    <br>
+
+                    <p><strong>Nome:</strong></p>
+                    <p><input type="text" name="nome" [(ngModel)]="vaga.nome"  class="i" placeholder="Ex: vaga de aux"></p>
+                    <br>
+
+                    <p><strong>Foto ( escolha entre foto1.jpg à foto9.jpg):</strong></p>
+                    <p><input type="text" name="foto" [(ngModel)]="vaga.foto" class="i" placeholder="Ex: foto1.jpg"></p>
+                    <br>
+
+                    <p><strong>Descricao da Vaga:</strong></p>
+                    <P><input type="text" name="descricao" [(ngModel)]="vaga.descricao" class="i" placeholder="Breve descricao"></P>
+                    <br>
+
+                    <p><strong>Salario:</strong></p>
+                    <p><input type="text" name="salario" [(ngModel)]="vaga.salario" class="i"></p>
+                    <br>
+
+                    <button class="btn" (click)="atualizar(vaga.id)">Editar</button>
+                
+
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
